@@ -1,13 +1,4 @@
 # Проект 5. Выбираем авто выгодно
-## Юнит 6. Основные алгоритмы машинного обучения. Часть II  
-### skillfactory_rds  
-![https://img.shields.io/badge/Python-3.7.4-blue](https://img.shields.io/badge/Python-3.7.4-blue)
-
-## Оглавление  
-[1. Описание модуля](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_5/README.md#Описание-модуля)  
-[2. Какой кейс решаем?](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_5/README.md#Какой-кейс-решаем?)  
-[3. Этапы работы над проектом](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_5/README.md#Этапы-работы-над-проектом)  
-[4. Результат](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_5/README.md#Результат)  
 
 ### Описание модуля  
 Вы работаете в компании, которая занимается продажей автомобилей с пробегом в Москве. 
@@ -21,8 +12,7 @@
 - Проведем разведывательный анализ данных тестовой выборки.
 - Создадим парсер для сбора данных тренировочной выборки.
 - Напишем модель, которая будет предсказывать стоимость автомобиля по его характеристикам. 
-- Поучаствуем в командном хакатоне.  
-:arrow_up:[к оглавлению](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_5/README.md#Оглавление)
+
 
 ### Какой кейс решаем?
 Данный бизнес-кейс является аналогом существующего сервиса оценки стоимости автомобиля на сайте Auto.ru.
@@ -30,7 +20,6 @@
 
 **Метрика качества**
 Результаты оцениваются по средней относительной ошибке прогноза (Mean Absolute Percentage Error или MAPE).
-:arrow_up:[к оглавлению](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_5/README.md#Оглавление)
 
 ### Этапы работы над проектом  
 1. Разведывательный анализ (EDA) для тестового датасета.
@@ -57,9 +46,4 @@
 Однако лучшие результаты были получены для модели BestSingleModelRegressor из библиотеки AutoML.
 
 Применение AutoML позволило улучшить результат с baseline 11.30 до 8.79
-:arrow_up:[к оглавлению](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_5/README.md#Оглавление)
 
-### Результат  
-- score MAPE = 8.79 
-- 9 место из 81 участника (Тор 12%)   
-:arrow_up:[к оглавлению](https://github.com/StanislavNevezhin/skillfactory_rds/tree/master/module_5/README.md#Оглавление)
